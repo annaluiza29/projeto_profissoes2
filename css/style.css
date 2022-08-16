@@ -1,0 +1,325 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #e1e9e5;
+}
+/*home*/
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+    height: 10vh;
+    background-size: cover;
+    background-position: center;
+    background-color: #66927c;
+    position: sticky;
+}
+.logo{
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    letter-spacing: 1px;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px  25px;
+}
+nav ul li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+
+}
+nav ul li a:hover{
+    color: #44e21d;
+    transform: .4s;
+    transition: 0.3s ease;
+}
+h1{
+    color: #fff;
+    margin: 20px 0px 20px;
+    font-size: 75px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+}
+h2{
+    color: #fff;
+    font-size: 50px ;
+    text-align: center;
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 38%;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+.img_principal img{
+    filter:brightness(30%);
+    height: 90vh;
+    width: 100%;
+    display: flex;
+}
+
+/*grade curricular*/
+.grade_curricular{
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.title h2{
+    color: #66927c;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    background-size: cover;
+}
+
+.card{
+    height: 500px;
+    width: 350px;
+    padding: 20px 35px;
+    background: #84e4ba;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+
+.card .dieta img{
+    height: auto;
+    width: 150px;
+    display: block;
+    margin: 15px 0px;
+}
+
+h5{
+    color: #2e4d3f;
+    font-size: 23px;
+    margin-bottom: -30px;
+}
+
+p.pr{
+    color: #112224;
+    font-size: 20px;
+    line-height: 18px;
+    top: 20px;
+    padding: 70px 0;
+}
+
+/*areas de atuação*/
+.heading{
+    text-align: center;
+    color: #66927c;
+    text-transform: uppercase;
+    padding-bottom: 56px;
+    font-size: 64px;
+    font-weight: bold;
+    padding: 100px 0px;
+}
+.about .row {
+    width: 65rem;
+    background:#174d3c;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    height: 30rem;
+}
+.about{
+    margin-top: -50px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+p{
+    line-height: 20px;
+    max-width: 500px;
+    padding: 30px;
+    font-size: 20px;
+}
+.texto{
+    color: #fff;
+}
+
+/*Faculdades*/
+.faculdades{
+    padding: 50px -30px;
+
+}
+.faculdades .box-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 350px;
+    gap: 10px 15px;
+
+}
+
+.faculdades .box-container .facul{
+    height: 300px;
+    width: 335px;
+    padding: 10px 10px;
+    background: #fff;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.facul img{
+    height: 192px;
+}
+.faculdades h2{
+    color: #7cbea0;
+    font-size: 75px;
+    width: 1130px;
+    margin: 10px auto;
+    text-align: center;
+    padding-top: 40px;
+}
+
+/*conselhos*/
+.conselhos{
+    width: 100%;
+    height: 836px;
+    padding: 100px 0px;
+}
+.conselhos h2{
+    color: #7cbea0;
+    font-size: 75px;
+}
+.crn{
+    margin-left: 70px;
+    display: flex;
+    padding: 50px;
+    align-items: center;
+    text-align: right;
+}
+.cfn{
+    margin-right: 70px;
+    display: flex;
+    padding: 50px;
+    float: right;
+    align-items: center;
+}
+p .crn-text{
+    margin-left: 50px;
+    width: 700px;
+    letter-spacing: 1px;
+    font-size: 25px;
+    padding: 30px;
+    color: black;
+
+}
+p .cfn-text{
+    width: 700px;
+    letter-spacing: 1px;
+    font-size: 25px;
+    padding: 30px;
+    text-align: center;
+    color: black;
+}
+.cfn img{
+    width: 378;
+    height: 339;
+}
+
+/*video*/
+.video{
+    width: 100%;
+    height: 86px;
+}
+
+.area_video{
+    left: 500px;
+    height: 335px;
+    width: 600px;
+    padding: 10px;
+    background-color: #174d3c;
+    padding-top: -400px;
+}
+
+/*footer*/
+.footer{
+    background-color: #a5a5af;
+    padding: 40px 0;
+    width: 100%;
+    z-index: -2;
+    position: absolute;
+
+    color: #000;
+}
+
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-col h4{
+    font-size: 18px;
+    color: #015249;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.footer-col ul li{
+    margin-bottom: 10px;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+    list-style: none;
+}
+
+
+
+
+
